@@ -27,7 +27,7 @@
     border-left: 6px solid #ffd27a;
 }
 
-.footer-description {
+.footer-description, .global-excerpt {
     opacity: 1;
 }
 @media (max-width: 1024px) {
