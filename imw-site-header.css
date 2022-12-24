@@ -6,11 +6,11 @@
     color:#8c5379;
     text-decoration:none;
 }
-    .post-header-wrap.is-center {
-    text-align: left;
-}
 .header-nav a {
     text-transform: uppercase;
+}
+    .post-header-wrap.is-center {
+    text-align: left;
 }
     .subscribe-form {
     border-left: 15px solid #ffd27a;
