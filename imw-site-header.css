@@ -22,7 +22,12 @@
     min-height: 100vh;
     margin: auto;
 }
-
+    .post-content h1:first-child, .post-content h2:first-child {
+    margin-top: 2em;
+}
+    .post-content h1, .post-content h2 {
+    margin-top: 2em;
+}
 .post-content blockquote {
     border-left: 6px solid #ffd27a;
 }
