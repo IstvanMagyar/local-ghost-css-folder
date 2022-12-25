@@ -101,6 +101,13 @@
         width: 100%;
         padding: 30px 24px 10px;
     }
+
+    .imw-card .imw-card-text-box h2:first-child {
+    margin-top: 0em;
+}
+.imw-card .imw-card-text-box h2 {
+    margin-top: 0em;
+}
     .imw-card-content {
         padding: 10px 24px 20px;
     }
