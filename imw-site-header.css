@@ -1,14 +1,15 @@
+/* ROOT */
+
 :root {
     font-size:50%;
     --color-font-one: #4d6e76;
 }
-.post-content a {
-    color:#8c5379;
-    text-decoration:none;
-}
     .post-header-wrap.is-center {
     text-align: left;
 }
+
+/* HEADER */
+
 .header-nav a {
     text-transform: uppercase;
 }
@@ -18,23 +19,43 @@
     .post-share > div a {
     background-color: #ffd37b;
 }
+
+/* GLOBAL */
+
 .global-wrap, .global-content {
     min-height: 100vh;
     margin: auto;
 }
+
+/* POST CONTENT */
+
+    .post-content h1, .post-content h2 {
+    margin-top: 2em;
+}
     .post-content h1:first-child, .post-content h2:first-child {
     margin-top: 2em;
 }
-    .post-content h1, .post-content h2 {
-    margin-top: 2em;
+.post-content a {
+    color:#8c5379;
+    text-decoration:none;
 }
 .post-content blockquote {
     border-left: 6px solid #ffd27a;
 }
+.post-content h1, .post-content h2, .post-content h3 {
+    line-height: 1.4;
+    margin-top: 1em;
+    margin-bottom: 32px;
+}
+
+/* FOOTER */
 
 .footer-description, .global-excerpt {
     opacity: 1;
 }
+
+/* MEDIA QUIRIES */
+
 @media (max-width: 1024px) {
     .header-toggle .bar:nth-child(1) {
         top: -8px;
@@ -49,8 +70,65 @@
     text-transform: uppercase;
 }
  
+/* MINICARD */
 
-  /* PICTURE CARD */
+.imw-minicard {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    background:#f2f2f2;
+}
+.imw-minicard-reversed {
+    flex-direction: row-reverse;
+}
+.imw-minicard-pic-box {
+  display: block;
+  flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: 40%;
+  align-self: auto;
+    width: 40%;
+    background-color: #ffd27a;
+}
+.imw-minicard-pic {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.imw-minicard-text-box {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  flex-grow: 3;
+  flex-shrink: 0;
+  flex-basis: 60%;
+  align-self: auto;
+    width: 60%;
+    padding: 20px;
+}
+
+.imw-minicard-text-box h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.imw-minicard-text-box p {
+    font-family: sans-serif;
+  font-size: 1.8em;
+  margin-bottom: .2em;
+}
+
+/* PICTURE CARD */
+
     .imw-card-wrapper {
         margin-left: auto;
             margin-right: auto;
@@ -180,12 +258,6 @@
     padding-right: 0px;
     padding-left: 0px;
 }
-/*.imw-grid-title-box.post-header-content h1{
-    margin-left: 20px;
-    }
-.imw-grid-title-box.post-header-content .post-tags {
-    margin-left: 20px;
-    }*/
 .imw-grid-title-box .post-title {
     font-size: 12rem;
 }
