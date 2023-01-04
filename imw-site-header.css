@@ -54,12 +54,6 @@
 
 .post-content h2 {
     font-size: 3.8rem;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-}
-.post-content h2:first-child {
-    letter-spacing: 2px;
-    word-spacing: 3px;
 }
 .post-title {
     font-size:  5rem;
@@ -83,7 +77,6 @@ h1, .hero-title {
 }
 h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
 }
 .post-content h1, .post-content h2 {
     margin-top: 2em;
