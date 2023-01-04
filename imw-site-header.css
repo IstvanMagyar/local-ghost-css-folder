@@ -174,6 +174,13 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     height: 100%;
     border-radius: 0px;
 }
+@media (max-width: 768px) {
+    .imw-minicard {
+    flex-direction: column;
+    }
+    .imw-minicard-text-box {
+    padding: 0px;
+}
 
 /* PICTURE CARD */
 
@@ -265,12 +272,6 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     .imw-card p {
     font-size: 1.5rem;
 }
-    }
-    @media (max-width: 768px) {
-    .imw-minicard {
-        max-width: 600px;
-        flex-direction: column;
-        }
     }
 
 /* HEROPAGE header grid */
