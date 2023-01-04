@@ -59,7 +59,7 @@
 }
 .post-content h2:first-child {
     letter-spacing: 2px;
-    word-spacing: 8px;
+    word-spacing: 3px;
 }
 .post-title {
     font-size:  5rem;
@@ -71,6 +71,10 @@
 .item-title {
     font-family: "Inter", sans-serif;
     font-size: 2.2rem;
+}
+.item.is-special .item-title {
+    font-size: 1.9rem;
+    font-family: "Inter", sans-serif;
 }
 
 h1, h2, .hero-title, .item-title {
