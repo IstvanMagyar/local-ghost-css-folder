@@ -69,21 +69,24 @@
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
 }
- 
+
+
 /* MINICARD */
 
-.imw-minicard {
+    .imw-minicard {
   display: flex;
   flex-wrap: nowrap;
   justify-content: normal;
   align-items: normal;
   align-content: normal;
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 20px;
-    background:#f2f2f2;
+    background:#fff;
+    box-sizing: border-box;
+        height:auto;
 }
 .imw-minicard-reversed {
     flex-direction: row-reverse;
@@ -110,18 +113,20 @@
   flex-shrink: 0;
   flex-basis: 50%;
   align-self: auto;
-    padding: 20px;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
-.imw-minicard-text-box h3 {
+.imw-minicard-text-box h2 {
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 3em;
-    margin-bottom: .5em;
 }
 .imw-minicard-text-box p {
     font-family: sans-serif;
-  margin-bottom: .2em;
+}
+.post-content img.imw-minicard-pic {
+    height: 100%;
+    border-radius: 0px;
 }
 
 /* PICTURE CARD */
