@@ -1,10 +1,8 @@
 /* ROOT */
 
 :root {
-    --color-font-one: #4d6e76;
-}
-html {
     font-size: 50%;
+    --color-font-one: #4d6e76;
 }
     .post-header-wrap.is-center {
     text-align: left;
@@ -131,7 +129,7 @@ h3, h4, h5, h6, .subscribe-title, blockquote {
   flex-shrink: 0;
   flex-basis: 50%;
   align-self: auto;
-    background-color: #ffd27a;
+    background-color: #ffdc7a;
 }
 .imw-minicard-pic {
     width: 100%;
