@@ -78,6 +78,9 @@ h1, .hero-title {
 h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     font-family: 'Inter', sans-serif;
 }
+.post-section.is-sidebar .post-title {
+    font-size: 5rem;
+}
 .post-content h1, .post-content h2 {
     margin-top: 2em;
 }
@@ -93,10 +96,29 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     margin-left: auto;
     margin-right: auto;
 }
-
-.post-content .imw-minicard h1:first-child, .post-content h2:first-child {
-   }
-
+@media (max-width: 768px) {
+    .post-title {
+        font-size: 3rem;
+    }
+    .post-section.is-sidebar .post-title {
+    font-size: 3rem;
+}
+    .item-title {
+        font-size: 2rem;
+    }
+    .post-content h2 {
+    font-size: 2.8rem;
+}
+    .post-content h3 {
+        font-size: 2.3rem;
+}
+    .item.is-top.is-first .item-title {
+    font-size: 3rem;
+}
+    .imw-grid-title-box .post-title {
+    font-size: 3rem;
+}
+    }
 
 /* FOOTER */
 
