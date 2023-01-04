@@ -64,6 +64,9 @@
 .post-title {
     font-size:  6rem;
 }
+.item.is-top.is-first .item-title {
+    font-size: 4rem;
+}
 
 h1, h2, .hero-title, .item-title {
     font-family: 'Prata', serif;
