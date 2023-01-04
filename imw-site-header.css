@@ -49,8 +49,8 @@
     border-left: 6px solid #ffdc7a;
 }
 
-/* TYPOGRAPHY */
 
+/* TYPOGRAPHY */
 
 .post-content h2 {
     font-size: 3.8rem;
@@ -62,7 +62,7 @@
     word-spacing: 8px;
 }
 .post-title {
-    font-size:  6rem;
+    font-size:  5rem;
 }
 .item.is-top.is-first .item-title {
     font-size: 4rem;
@@ -93,6 +93,7 @@ h3, h4, h5, h6, .subscribe-title, blockquote {
 
 .post-content .imw-minicard h1:first-child, .post-content h2:first-child {
    }
+
 
 /* FOOTER */
 
