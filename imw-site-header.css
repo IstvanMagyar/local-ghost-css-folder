@@ -1,8 +1,10 @@
 /* ROOT */
 
 :root {
-    font-size:62.5%%;
     --color-font-one: #4d6e76;
+}
+html {
+    font-size: 50%;
 }
     .post-header-wrap.is-center {
     text-align: left;
@@ -51,12 +53,12 @@
 
 /* TYPOGRAPHY */
 
-h1, h2 {
+h1, h2, .hero-title, .item-title {
     font-family: 'Prata', serif;
     font-weight: 400;
     text-transform: uppercase;
 }
-h3, h4, h5, h6, .hero-title, .item-title, .subscribe-title, blockquote {
+h3, h4, h5, h6, .subscribe-title, blockquote {
     font-family: 'Inter', sans-serif;
 }
 .post-content h1, .post-content h2 {
