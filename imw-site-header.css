@@ -29,6 +29,10 @@
 
 /* POST CONTENT */
 
+.post-content {
+    max-width: unset;
+}
+
 .post-content a {
     color:#8c5379;
     text-decoration:none;
