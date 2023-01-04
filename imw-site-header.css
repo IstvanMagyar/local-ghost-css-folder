@@ -94,7 +94,7 @@ h3, h4, h5, h6, .subscribe-title, blockquote {
     line-height: 1.4;
     margin-bottom: 32px;
 }
-.post-content h1, .post-content h2, .post-content h3, .post-content blockquote, .post-content p, .post-content li, .post-content ul, .post-content ol, .kg-callout-card {
+.post-content h1, .post-content h2, .post-content h3, .post-content blockquote, .post-content p, .post-content li, .post-content ul, .post-content ol, .kg-callout-card, #fs-frm {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
