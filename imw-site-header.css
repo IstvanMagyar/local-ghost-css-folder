@@ -46,10 +46,15 @@
     text-decoration:none;
 }
 .post-content blockquote {
-    border-left: 6px solid #ffd27a;
+    border-left: 6px solid #ffdc7a;
 }
 
 /* TYPOGRAPHY */
+
+
+.post-content h2 {
+    font-size: 4rem;
+}
 
 h1, h2, .hero-title, .item-title {
     font-family: 'Prata', serif;
@@ -66,7 +71,6 @@ h3, h4, h5, h6, .subscribe-title, blockquote {
 }
 .post-content h1, .post-content h2, .post-content h3 {
     line-height: 1.4;
-    margin-top: 1em;
     margin-bottom: 32px;
 }
 .post-content h1, .post-content h2, .post-content h3, .post-content blockquote, .post-content p {
@@ -76,8 +80,7 @@ h3, h4, h5, h6, .subscribe-title, blockquote {
 }
 
 .post-content .imw-minicard h1:first-child, .post-content h2:first-child {
-    margin-top: 1em;
-}
+   }
 
 /* FOOTER */
 
@@ -148,9 +151,6 @@ h3, h4, h5, h6, .subscribe-title, blockquote {
     box-sizing: border-box;
 }
 
-.imw-minicard-text-box h2 {
-    
-}
 .imw-minicard-text-box p {
     font-family: sans-serif;
 }
