@@ -54,6 +54,12 @@
 
 .post-content h2 {
     font-size: 3.8rem;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+}
+.post-content h2:first-child {
+    letter-spacing: 2px;
+    word-spacing: 8px;
 }
 
 h1, h2, .hero-title, .item-title {
@@ -303,7 +309,7 @@ h3, h4, h5, h6, .subscribe-title, blockquote {
     padding-left: 0px;
 }
 .imw-grid-title-box .post-title {
-    font-size: 8rem;
+    font-size: 7rem;
 }
 .imw-grid-image-box {
     grid-area: 1/1/2/2;
