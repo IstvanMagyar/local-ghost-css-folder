@@ -308,7 +308,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
 .imw-grid-title-box {
     grid-area: 1/1/2/2;
     z-index: 1;
-    background: #a1a1a145;
+    background: #a1a1a120;
     padding-bottom: 0px;
     padding-left: 0px;
     box-sizing: border-box;
