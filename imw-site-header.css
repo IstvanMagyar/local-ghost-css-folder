@@ -145,7 +145,11 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
 }
-
+@media (max-width: 640px) {
+.widget-wrap .item-title {
+    padding: 5px 6px;
+}
+}
 
 /* MINICARD */
 
