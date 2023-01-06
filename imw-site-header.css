@@ -35,6 +35,10 @@ img {
     min-height: 100vh;
     margin: auto;
 }
+.widget-wrap .item {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 /* POST CONTENT */
 

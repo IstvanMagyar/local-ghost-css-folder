@@ -5742,12 +5742,16 @@ img {
     min-height: 100vh;
     margin: auto;
 }
+.widget-wrap .item {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 /* POST CONTENT */
 
-.post-content {
-    max-width: unset;
-}
+/*.post-content {
+    max-width: 640px;
+}*/
 .post-content a {
     color:#8c5379;
     text-decoration:none;
@@ -5798,11 +5802,11 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     line-height: 1.4;
     margin-bottom: 32px;
 }
-.post-content h1, .post-content h2, .post-content h3, .post-content blockquote, .post-content p, .post-content li, .post-content ul, .post-content ol, .kg-callout-card, #fs-frm {
+/*.post-content h1, .post-content h2, .post-content h3, .post-content blockquote, .post-content p, .post-content li, .post-content ul, .post-content ol, .kg-callout-card, #fs-frm {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 @media (max-width: 768px) {
     .post-title {
         font-size: 3rem;
