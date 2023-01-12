@@ -1,3 +1,5 @@
+/* ------------------- MY CSS ------------------- */
+
 /* ROOT */
 
 :root {
@@ -9,7 +11,8 @@
 }
 
 #istvan {
-    max-width: 50%;
+    max-width: 300px;
+    max-height: 320px;
     }
 
 img {
@@ -42,9 +45,9 @@ img {
 
 /* POST CONTENT */
 
-.post-content {
-    max-width: unset;
-}
+/*.post-content {
+    max-width: 640px;
+}*/
 .post-content a {
     color:#8c5379;
     text-decoration:none;
@@ -95,11 +98,11 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     line-height: 1.4;
     margin-bottom: 32px;
 }
-.post-content h1, .post-content h2, .post-content h3, .post-content blockquote, .post-content p, .post-content li, .post-content ul, .post-content ol, .kg-callout-card, #fs-frm {
+/*.post-content h1, .post-content h2, .post-content h3, .post-content blockquote, .post-content p, .post-content li, .post-content ul, .post-content ol, .kg-callout-card, #fs-frm {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 @media (max-width: 768px) {
     .post-title {
         font-size: 3rem;
@@ -145,39 +148,37 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
 }
-@media (max-width: 640px) {
-.widget-wrap .item-title {
-    padding: 5px 6px;
-}
-}
+
 
 /* MINICARD */
 
-    .imw-minicard {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: normal;
-  align-items: normal;
-  align-content: normal;
+.imw-minicard {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
     max-width: 1200px;
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 20px;
-    background:#fff;
+    background: #fff;
     box-sizing: border-box;
-        height:auto;
+    height: auto;
 }
 .imw-minicard-reversed {
     flex-direction: row-reverse;
 }
 .imw-minicard-pic-box {
-  display: block;
-  flex-grow: 2;
-  flex-shrink: 0;
-  flex-basis: 50%;
-  align-self: auto;
-    background-color: #ffdc7a;
+    display: flex;
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    align-self: center;
+    background-color: #fdeba0;
+    justify-content: end;
+    align-items: center;
 }
 .imw-minicard-pic {
     width: 100%;
@@ -186,14 +187,14 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
 }
 
 .imw-minicard-text-box {
-  display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-  flex-grow: 3;
-  flex-shrink: 0;
-  flex-basis: 50%;
-  align-self: auto;
-    padding: 30px;
+    justify-content: flex-start;
+    flex-grow: 3;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    align-self: auto;
+    padding-right: 30px;
     box-sizing: border-box;
 }
 
@@ -210,6 +211,23 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     }
     .imw-minicard-text-box {
     padding: 0px;
+}
+}
+@media (min-width: 1481px) {
+.post-content .imw-minicard{
+    width: calc(100% + 70px + 70px);
+    margin-left: -70px;
+}
+}
+@media (max-width: 1480px) and (min-width: 1025px) {
+.post-content .imw-minicard{
+    width: calc(100% + 50px + 50px);
+    margin-left: -50px;
+}
+}
+@media (max-width: 640px) {
+.widget-wrap .item-title {
+    padding: 5px 6px;
 }
 }
 /* PICTURE CARD */
