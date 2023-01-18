@@ -5793,9 +5793,11 @@ img {
 h1, .hero-title {
     font-family: 'Prata', serif;
     text-transform: uppercase;
+    font-weight: 400;
 }
 h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 .post-section.is-sidebar .post-title {
     font-size: 5rem;
