@@ -5764,10 +5764,12 @@ img {
 
 /* TYPOGRAPHY */
 
+.header-nav nav li {
+    letter-spacing: 2px;
+}
 .post-content h2 {
     font-size: 3.8rem;
 }
-
 .post-title {
     font-size:  5rem;
     margin-top: 2vh;
