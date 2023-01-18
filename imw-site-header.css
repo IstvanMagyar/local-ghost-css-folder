@@ -62,8 +62,13 @@ img {
 .post-content h2 {
     font-size: 3.8rem;
 }
+
 .post-title {
     font-size:  5rem;
+    margin-top: 2vh;
+    margin-bottom: 2.6vh;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 .item.is-top.is-first .item-title {
     font-size: 4rem;
