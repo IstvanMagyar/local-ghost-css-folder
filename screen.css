@@ -5880,10 +5880,11 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 40px;
     background: #fff;
     box-sizing: border-box;
     height: auto;
+    margin-bottom: 40px;
 }
 .imw-minicard-reversed {
     flex-direction: row-reverse;
