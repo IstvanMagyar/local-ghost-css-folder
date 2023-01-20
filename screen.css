@@ -5929,9 +5929,6 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     .imw-minicard {
     flex-direction: column;
     }
-    .imw-minicard-text-box {
-    padding: 0px;
-}
 }
 /*
 @media (min-width: 1481px) {
