@@ -181,6 +181,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     height: auto;
     margin-bottom: 40px;
     background-color: #f6f6f6;
+    border: 1px solid #d1d1d1;
 }
 .imw-minicard-reversed {
     flex-direction: row-reverse;
