@@ -405,8 +405,8 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     }
 
 @media all and (max-width: 768px) and (orientation: portrait) {
-    .global-image-orientation.is-panoramic {
-    aspect-ratio: 4/5;
+    .global-image-orientation.is-natural {
+    aspect-ratio: 5/7;
     }
     }
 
