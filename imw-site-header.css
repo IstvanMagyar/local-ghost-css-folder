@@ -180,7 +180,6 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     box-sizing: border-box;
     height: auto;
     margin-bottom: 40px;
-    background-color: #f6f6f6;
     border: 1px solid #d1d1d1;
 }
 .imw-minicard-reversed {
@@ -190,7 +189,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     display: flex;
     flex-grow: 2;
     flex-shrink: 0;
-    flex-basis: 40%;
+    flex-basis: 50%;
     align-self: center;
     /*background-color: #fdeba0;*/
     justify-content: end;
@@ -208,12 +207,15 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     justify-content: center;
     flex-grow: 3;
     flex-shrink: 0;
-    flex-basis: 60%;
+    flex-basis: 50%;
     align-self: auto;
     padding: 20px;
     box-sizing: border-box;
+    text-align: center;
 }
-
+.imw-minicard-text-box h2 {
+    font-weight: 700;
+}
 .imw-minicard-text-box p {
     font-family: sans-serif;
 }
