@@ -5743,6 +5743,7 @@ img {
 .global-wrap, .global-content {
     min-height: 100vh;
     margin: auto;
+    max-width: 1440px;
 }
 .widget-wrap .item {
     -webkit-filter: grayscale(100%);
