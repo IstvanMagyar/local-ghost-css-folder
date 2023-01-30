@@ -7,6 +7,9 @@
     --color-font-one: #4d6e76;
     --max-width-post-wrap-one: 960px;
 }
+body {
+   font-family: helvetica neue;
+}
     .post-header-wrap.is-center {
     text-align: left;
 }
@@ -218,7 +221,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     font-weight: 700;
 }
 .imw-minicard-text-box p {
-    font-family: sans-serif;
+    font-family: helvetica neue;
 }
 .post-content img.imw-minicard-pic {
     height: 100%;
@@ -265,7 +268,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     margin-right: auto;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 1fr;
-    font-family: sans-serif;
+    font-family: helvetica neue;
     border-radius: 10px;
     overflow: hidden;
     background-color: #ffd27a;
