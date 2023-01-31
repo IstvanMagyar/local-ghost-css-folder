@@ -82,15 +82,15 @@ img {
 }
 .item.is-top.is-first .item-title {
     font-size: 4rem;
-    font-family: "Prata", serif;
+    font-family: 'Prata', serif;
 }
 .item-title {
-    font-family: "Inter", sans-serif;
+    font-family: 'Helvetica neue', sans-serif;
     font-size: 2.2rem;
 }
 .item.is-special .item-title {
     font-size: 1.9rem;
-    font-family: "Inter", sans-serif;
+    font-family: 'helvetica neue', sans-serif;
 }
 
 h1, .hero-title {
@@ -99,7 +99,7 @@ h1, .hero-title {
     font-weight: 400;
 }
 h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
-    font-family: 'Inter', sans-serif;
+    font-family: 'helvetica neue', sans-serif;
     font-weight: 400;
 }
 .post-section.is-sidebar .post-title {
