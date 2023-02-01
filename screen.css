@@ -5740,6 +5740,10 @@ img {
     .post-share > div a {
     background-color: #ffd37b;
 }
+.header-wrap {
+    padding-right: var(--margin-wrap-left-right);
+    padding-left: var(--margin-wrap-left-right);
+}
 
 /* GLOBAL */
 
