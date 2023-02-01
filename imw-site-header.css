@@ -159,8 +159,11 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     .header-toggle .bar:nth-child(3) {
     top: 8px;
 }
-    
-    }
+    .post-content {
+    font-size: 1.8rem;
+    max-width: 100%;
+    }    
+}
     
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
