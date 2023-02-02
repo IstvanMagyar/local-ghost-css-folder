@@ -5772,6 +5772,9 @@ img {
 .post-content blockquote {
     border-left: 7px solid #ffed99;
 }
+.post-content blockquote span {
+        font-weight:400;
+}
 
 
 /* TYPOGRAPHY */
