@@ -162,6 +162,11 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     transition: opacity .2s ease-in-out;
 }
 
+/*  TOGGLE */
+.post-content .kg-toggle-card {
+    background: #e8fbff;
+}
+
 /* FOOTER */
 
 .footer-description, .global-excerpt {
