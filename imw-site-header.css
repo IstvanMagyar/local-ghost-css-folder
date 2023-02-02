@@ -148,6 +148,20 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
 }
     }
 
+/* BUTTON */
+
+.post-content .kg-button-card .kg-btn {
+    padding: 1.3em;
+    height: 2.4em;
+    line-height: 1em;
+    font-family: "Helvetica Neue",sans-serif;
+    font-size: 1.1em;
+    ont-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: opacity .2s ease-in-out;
+}
+
 /* FOOTER */
 
 .footer-description, .global-excerpt {

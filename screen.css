@@ -5791,15 +5791,15 @@ img {
 }
 .item.is-top.is-first .item-title {
     font-size: 4rem;
-    font-family: "Prata", serif;
+    font-family: 'Prata', serif;
 }
 .item-title {
-    font-family: "helvetica neue", sans-serif;
+    font-family: 'Helvetica neue', sans-serif;
     font-size: 2.2rem;
 }
 .item.is-special .item-title {
     font-size: 1.9rem;
-    font-family: "Helvetica neue", sans-serif;
+    font-family: 'helvetica neue', sans-serif;
 }
 
 h1, .hero-title {
@@ -5808,7 +5808,7 @@ h1, .hero-title {
     font-weight: 400;
 }
 h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
-    font-family: 'Helvetica neue', sans-serif;
+    font-family: 'helvetica neue', sans-serif;
     font-weight: 400;
 }
 .post-section.is-sidebar .post-title {
@@ -5853,6 +5853,20 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
 }
     }
 
+/* BUTTON */
+
+.post-content .kg-button-card .kg-btn {
+    padding: 1.3em;
+    height: 2.4em;
+    line-height: 1em;
+    font-family: "Helvetica Neue",sans-serif;
+    font-size: 1.1em;
+    ont-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: opacity .2s ease-in-out;
+}
+
 /* FOOTER */
 
 .footer-description, .global-excerpt {
@@ -5868,11 +5882,11 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     .header-toggle .bar:nth-child(3) {
     top: 8px;
 }
-   .post-content {
+    .post-content {
     font-size: 1.8rem;
     max-width: 100%;
-    } 
- }
+    }    
+}
     
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
