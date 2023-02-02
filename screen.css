@@ -5735,7 +5735,7 @@ img {
     text-transform: uppercase;
 }
     .subscribe-form {
-    border-left: 15px solid #ffd27a;
+    border-left: 15px solid #ffed98;
 }
     .post-share > div a {
     background-color: #ffd37b;
@@ -6009,10 +6009,10 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     font-family: helvetica neue;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #ffd27a;
+    background-color: #ffed98;
     animation: imw-card-in 500ms;
     grid-gap: 10px;
-    border: 0px solid #ffd27a;
+    border: 0px solid #ffed98;
 }
         
 .imw-card-pic-box {
