@@ -65,12 +65,15 @@ img {
     text-decoration:none;
 }
 .post-content blockquote {
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    font-style: italic;
     border-left: 7px solid #ffed99;
-}
-.post-content blockquote span {
-        font-weight:400;
     }
-
+.post-content blockquote span {
+    font-weight:400;
+}
 
 /* TYPOGRAPHY */
 
