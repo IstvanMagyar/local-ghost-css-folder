@@ -5775,11 +5775,10 @@ img {
     margin-right:auto;
     font-style: italic;
     border-left: 7px solid #ffed99;
-    }
+}
 .post-content blockquote span {
     font-weight:400;
 }
-
 
 /* TYPOGRAPHY */
 
@@ -5788,6 +5787,7 @@ img {
 }
 .post-content h2 {
     font-size: 3.8rem;
+    font-weight: 500;
 }
 .post-title {
     font-size:  5rem;
@@ -5814,7 +5814,7 @@ h1, .hero-title {
     text-transform: uppercase;
     font-weight: 400;
 }
-h2, h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
+h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
     font-family: 'helvetica neue', sans-serif;
     font-weight: 400;
 }
