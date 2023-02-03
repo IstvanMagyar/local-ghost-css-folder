@@ -5878,13 +5878,6 @@ h3, h4, h5, h6, .item-title, .subscribe-title, blockquote {
 .post-content .kg-toggle-card {
     background: #e8fbff;
 }
-.kg-toggle-heading {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    color: #946690;
-}
 
 /* FOOTER */
 
