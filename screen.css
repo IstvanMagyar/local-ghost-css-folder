@@ -5703,7 +5703,7 @@ div.is-archive-image {
 }
 
 
-/* ------------------- MY CSS ------------------- */
+//* ------------------- MY CSS ------------------- */
 
 /* ROOT */
 
@@ -5901,6 +5901,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
 }
+
 
 
 /* MINICARD */

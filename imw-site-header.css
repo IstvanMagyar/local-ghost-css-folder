@@ -196,6 +196,12 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
 }
+@media (min-width: 1481px) {
+.post-content .kg-video-card.kg-width-wide, .post-content .kg-image-card.kg-width-wide img, .post-content .kg-gallery-card .kg-gallery-container {
+    width: 100%;
+    margin-left: auto;
+}
+}
 
 
 /* MINICARD */
