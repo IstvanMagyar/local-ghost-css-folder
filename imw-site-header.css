@@ -6,6 +6,7 @@
     font-size: 50%;
     --color-font-one: #4d6e76;
     --max-width-post-wrap-one: 960px;
+    --border-radius: 0px;
 }
 body {
    font-family: helvetica neue;
