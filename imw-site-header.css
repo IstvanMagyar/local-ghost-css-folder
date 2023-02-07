@@ -127,8 +127,6 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title {
 }
 .post-content h1, .post-content h2, .post-content h3, .post-content p, .post-content li, .post-content ul, .post-content ol, .kg-callout-card, #fs-frm {
     max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
 }
 @media (max-width: 768px) {
     .post-title {
