@@ -5813,7 +5813,7 @@ h1, .hero-title {
     text-transform: uppercase;
     font-weight: 400;
 }
-h2, h3, h4, h5, h6, .item-title, .subscribe-title, {
+h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     font-family: 'helvetica neue', sans-serif;
     font-weight: 400;
 }
@@ -5924,15 +5924,24 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, {
 .imw-minicard-reversed {
     flex-direction: row-reverse;
 }
-.imw-minicard-pic-box {
+/*.imw-minicard-pic-box {
     display: flex;
     flex-grow: 2;
     flex-shrink: 0;
     flex-basis: 50%;
     align-self: center;
-    /*background-color: #fdeba0;*/
     justify-content: end;
     align-items: center;
+}*/
+.imw-minicard-pic-box {
+    display: flex;
+    /* flex-grow: 2; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 50%; */
+    /* align-self: center; */
+    /* background-color: #fdeba0; */
+    /* justify-content: end; */
+    /* align-items: center; */
 }
 .imw-minicard-pic {
     width: 100%;
@@ -5940,7 +5949,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, {
     height: 100%;
 }
 
-.imw-minicard-text-box {
+/*.imw-minicard-text-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -5948,6 +5957,17 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title, {
     flex-shrink: 0;
     flex-basis: 50%;
     align-self: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}*/
+.imw-minicard-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-grow: 3; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 50%; */
+    /* align-self: auto; */
     padding: 20px;
     box-sizing: border-box;
 }
