@@ -113,6 +113,9 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     font-family: 'helvetica neue', sans-serif;
     font-weight: 400;
 }
+.post-content h1, .post-content h2, .post-content h3 {
+    margin-top: 2em;
+}
 .post-section.is-sidebar .post-title {
     font-size: 5rem;
 }

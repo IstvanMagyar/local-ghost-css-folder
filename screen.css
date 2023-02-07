@@ -5703,7 +5703,7 @@ div.is-archive-image {
 }
 
 
-//* ------------------- MY CSS ------------------- */
+/* ------------------- MY CSS ------------------- */
 
 /* ROOT */
 
@@ -5818,6 +5818,9 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     font-family: 'helvetica neue', sans-serif;
     font-weight: 400;
 }
+.post-content h1, .post-content h2, .post-content h3 {
+    margin-top: 2em;
+}
 .post-section.is-sidebar .post-title {
     font-size: 5rem;
 }
@@ -5901,7 +5904,12 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
 }
-
+@media (min-width: 1481px) {
+.post-content .kg-video-card.kg-width-wide, .post-content .kg-image-card.kg-width-wide img, .post-content .kg-gallery-card .kg-gallery-container {
+    width: 100%;
+    margin-left: auto;
+}
+}
 
 
 /* MINICARD */
