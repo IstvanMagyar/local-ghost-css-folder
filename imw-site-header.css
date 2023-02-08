@@ -273,7 +273,7 @@ h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     box-sizing: border-box;
 }
 .imw-minicard-text-box h2 {
-    font-weight: 700;
+    font-weight: 600;
 }
 .imw-minicard-text-box p {
     font-family: helvetica neue;
