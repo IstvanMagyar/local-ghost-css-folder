@@ -5782,9 +5782,6 @@ img {
 
 /* TYPOGRAPHY */
 
-.header-nav nav li {
-    letter-spacing: 1.8px;
-}
 .post-content h2 {
     font-size: 3.8rem;
     font-weight: 500;
@@ -5793,12 +5790,11 @@ img {
     font-size:  5rem;
     margin-top: 2vh;
     margin-bottom: 2.6vh;
-    letter-spacing: 2px;
     word-spacing: 4px;
 }
 .item.is-top.is-first .item-title {
     font-size: 4rem;
-    font-family: 'Prata', serif;
+    font-family: 'Helvetica neue', sans-serif;
 }
 .item-title {
     font-family: 'Helvetica neue', sans-serif;
@@ -5810,13 +5806,12 @@ img {
 }
 
 h1, .hero-title {
-    font-family: 'Prata', serif;
-    text-transform: uppercase;
-    font-weight: 400;
+    font-family: 'Helvetica neue', serif;
+    font-weight: 500;
 }
 h2, h3, h4, h5, h6, .item-title, .subscribe-title {
     font-family: 'helvetica neue', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 .post-content h1, .post-content h2, .post-content h3 {
     margin-top: 2em;
